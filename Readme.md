@@ -25,3 +25,53 @@ mv-используемая для удаления файлов из файло
 cat-считывает данные из файлов и выводит их содержимое
 hexdump-
 nano-консольный текстовый редактор
+1  VirtualBox --startvm XP
+    2  quartus
+    3  pwd
+    4  open firefix
+    5  open firefox
+    6  clean
+    7  clear
+    8  clean
+    9  clear
+   10  ls
+   11  whereis ls
+   12  ls -l/bin/ls
+   13  ls -l /bin/ls
+   14  cat /bin/ls
+   15  whereis
+   16  whereis ls
+   17  echo %PATH
+   18  echo $PATH
+   19  ls -l /bin
+   20  pwd
+   21  clear
+   22  ls -lt
+   23  nano my_first_shell_script.sh
+   24  ps aux
+   25  ps aux | grep nano
+   26  fg
+   27  nano fg
+   28  nano my_first_work
+   29  ls -lt
+   30  nano my_first_shell_script
+   31  pwd
+   32  clear
+   33  echo $path
+   34  echo $PATH
+   35  ls -l
+   36  ls
+   37  pwd
+   38  echo $PATH
+   39  PATH=$PATH:~
+   40  ls
+   41  echo $PATH
+   42  /bin/ls
+   43  pwd
+   44  /home/user/my_first_shell_script
+   45  cd /
+   46  chmod 754 my_first_shell_script
+   47  whoami
+   48  groups
+   49  history
+user@epk428-6:/$ 
