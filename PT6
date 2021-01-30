@@ -1,0 +1,113 @@
+//1 dala
+#include <stdio.h>
+void skaitlu_paarbaude();
+
+int main()
+{
+skaitlu_paarbaude();
+return 0;
+}
+void skaitlu_paarbaude()
+{
+int n, i, flag=0;
+printf(" pozitivu veselu skaitli: ");
+scanf("%d",&n);
+for(i=2; i<=n/2; i++)
+{
+if(n%i==0)
+{
+flag=1;
+}
+}
+if (flag==1)
+printf(" %d nav pamata skaitlis.", n);
+else
+printf(" %d ir pamata skaitlisr.", n);
+}
+
+
+//2 dala
+#include <stdio.h>
+void priekshskatiijuma_un_displeja_paarbaude(int n);
+
+int main()
+{
+int n;
+printf(" pozitīvu veselu skaitli: ");
+scanf("%d",&n);
+priekshskatiijuma_un_displeja_paarbaude(n);
+return 0;
+}
+void priekshskatiijuma_un_displeja_paarbaude(int n)
+{
+int i, flag = 0;
+for(i=2; i<=n/2; ++i)
+{
+if(n%i==0)
+{
+flag=1;
+break;
+}
+}
+if(flag == 1)
+printf(" %d nav pamata 
+skaitlis.",n);
+else
+printf(" %d ir pamata skaitlis.", n);
+}
+
+//3 dala
+#include <stdio.h>
+int ieguut_veselu_skaitli();
+
+int main()
+{
+int n, i, flag=0;
+n = ieguut_veselu_skaitli();
+for(i=2; i<=n/2; ++i)
+{
+if(n%i==0){
+flag = 1;
+break;
+}
+}
+if (flag == 1)
+printf(" %d nav pamata skaitlis.", n);
+else
+printf(" %d ir pamata skaitlis.", n);
+return 0;
+}//ar return
+int ieguut_veselu_skaitli()
+{
+int n;
+printf( "pozitivu veselu skaitli: ");
+scanf("%d",&n);
+return n;
+}
+
+//4 dala
+#include <stdio.h>
+int skaitlu_paarbaude(int n);
+
+int main()
+{
+int n, flag;
+printf( "pozitivu veselu skaitli: ");
+scanf("%d",&n); //n-arguments un ar return
+flag = skaitlu_paarbaude(n);
+if(flag == 1)
+printf(" %d nav pamata skaitlis",n);
+else
+printf(" %d ir pamata skaitlis",n);
+return 0;
+}
+int skaitlu_paarbaude(int n)
+{
+int i;
+for(i=2; i<=n/2; i++)
+{
+if(n%i == 0)
+return 1;
+}
+return 0;
+}
