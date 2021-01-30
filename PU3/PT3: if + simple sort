@@ -1,0 +1,51 @@
+#include <stdio.h>
+int main()
+{
+int skait_1; //1 число
+int skait_2; //2
+int skait_3; // 3
+char s;
+
+printf("Ievadit skait_1:");
+scanf("%d", &skait_1);
+printf("Ievadit skait_2:");
+scanf("%d", &skait_2);
+printf("Ievaditevadiet skait_3:");
+scanf("%d", &skait_3);
+printf("Ievadiet skaitlu augošā secībā - a ; dilstošā - d \n");
+scanf("%s", &s);
+
+printf("vai ievaditājs simbols ir a %d\n", s=='a');
+if(s=='a')
+{
+if(skait_1>skait_2>skait_3)
+{
+printf("%d %d %d \n", skait_1, skait_2, skait_3);
+}
+else if(skait_3>skait_2>skait_1)
+{
+printf("%d %d %d \n", skait_3, skait_2, skait_1);
+}
+else if(skait_3>skait_1>skait_2)
+{
+printf("%d %d %d \n", skait_3, skait_1, skait_2);
+}
+}
+printf("vai d %d\n", s=='d');
+if(s=='d')
+{
+if(skait_1<skait_2<skait_3)
+{
+printf("%d %d %d \n", skait_1, skait_2, skait_3);
+}
+else if(skait_3<skait_2<skait_1)
+{
+printf("%d %d %d \n", skait_3, skait_2, skait_1);
+}
+else if(skait_3<skait_1<skait_2)
+{
+printf("%d %d %d \n", skait_3, skait_1, skait_2);
+}
+}
+return 0;
+}
