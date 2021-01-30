@@ -1,0 +1,16 @@
+#include <stdio.h>
+void main()
+{
+long int r;
+printf("Mainigais 1: r x b\n");
+scanf("%ld",  &r);
+printf("Mainigais - r vertiba = %ld\n ,r");
+long int b;
+printf("Mainigais - b :");
+scanf("%ld" ,&b);
+printf("Mainigais - b vertiba == %ld\n" ,b);
+
+long int c=r*b;
+printf("%ld x %ld = %ld\n" ,r,b,c);
+return 0;
+}
